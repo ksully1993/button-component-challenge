@@ -1,0 +1,34 @@
+h2 {
+  position: relative;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  color: #090F31;
+  top: 15px;
+  left: 45px;
+}
+
+h2>span {
+  color: #F7542E;
+}
+
+p {
+  color: #9E9E9E;
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+}
+#nav {
+  display: grid;
+  place-content: center;
+  margin-top: 50%;
+}
+#main {
+  color: #090F31;
+  font-weight: 700;
+}
