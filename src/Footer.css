@@ -1,6 +1,8 @@
 .footer {
   color: #A9A9A9;
-  margin-left: 15%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .footer>a, 
 .footer>a:hover, 
@@ -8,14 +10,33 @@
 .footer>a:active {
   text-decoration: none;
   color: #7e7e7e;
-  padding-left: 50px;
+  font-size: .95rem;
 }
 .footer>p {
-  padding: 0;
+  padding-bottom: .3rem;
   margin: 0;
+  font-size: .9rem;
 }
 #github {
   text-decoration: none;
   color: #7e7e7e;
   font-weight:600;
+}
+
+@media only screen and (min-width: 600px) {
+  .footer {
+    display: block;
+    margin: auto;
+    text-align: start;
+    padding-top: .4rem;
+  }
+  .footer>p {
+    padding-bottom: .8rem;
+  }
+}
+
+@media only screen and (min-width: 800px){
+ .footer {
+  margin: 0;
+ }
 }

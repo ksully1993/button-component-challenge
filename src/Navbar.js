@@ -3,7 +3,7 @@ import './Navbar.css'
 const Navbar = () => {
   return (
     <div>
-      <h2><span>Dev</span>challenges.io</h2>
+      <h2 id='logo'><span>Dev</span>Challenges.io</h2>
       <div id='nav'>
         <p>Colors</p>
         <p>Typography</p>

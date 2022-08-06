@@ -1,34 +1,52 @@
-h2 {
-  position: relative;
+#logo {
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: .95rem;
   line-height: 20px;
   color: #090F31;
-  top: 15px;
-  left: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-h2>span {
+#logo>span {
   color: #F7542E;
 }
+#nav {
+  display: none;
+}
 
-p {
+@media only screen and (min-width: 600px) {
+  #nav {
+    display: grid;
+    place-content: start;
+    margin-top: 50%;
+    padding-left: 1.6rem;
+  }
+  p {
   color: #9E9E9E;
   font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 28px;
+  line-height: 10px;
   position: relative;
-}
-#nav {
-  display: grid;
-  place-content: center;
-  margin-top: 50%;
-}
-#main {
+  }
+  #main {
   color: #090F31;
   font-weight: 700;
+  }
+}
+
+@media only screen and (min-width: 800px){
+  #nav {
+    padding-left: .9rem;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  #nav {
+    padding-left: 1.6rem;
+  }
 }
