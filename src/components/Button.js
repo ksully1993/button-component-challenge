@@ -1,4 +1,4 @@
-import './Button.css';
+import '../styles/Button.css';
 import { Button } from '@material-ui/core';
 
 const ButtonComp = ({ color, variant, size, disabled, disableShadow, startIcon, endIcon, iconName}) => {

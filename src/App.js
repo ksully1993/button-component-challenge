@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './App.css';
+import './styles/App.css';
 
-import ButtonComp from './Button';
-import Header from './Header';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import ButtonComp from './components/Button';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
 
 import { AddShoppingCart } from '@material-ui/icons';
 
